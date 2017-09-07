@@ -1,0 +1,127 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav a {
+  padding: 0px 15px;
+}
+
+h2, h4 {
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+#mission {
+  display: flex;
+  position: relative;
+  height: 700px;
+  padding-top: 72px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+
+#mission img {
+  width: 1200px;
+}
+#featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+}
+
+.selections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 15px 10px 15px;
+}
+
+#locationbox {
+  display: flex;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.location {
+  height: 250px;
+  width: 300px;
+  background-color: black;
+  margin: 10px 20px;
+}
+
+.locationtitle h2 {
+  color: seashell;
+  background-color: transparent;
+  padding-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#locationbox h4 {
+  font-weight: normal;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
